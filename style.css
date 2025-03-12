@@ -9,10 +9,13 @@
         background-size:cover,cover;
         background-repeat: no-repeat ,no-repeat;
         background-position:bottom,inherit ;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        
 
+}
+.header1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .header{
     width: 1194px;
@@ -30,6 +33,9 @@
     font-weight: bold;
     font-size: 24px;
 }
+.menu{
+    display: none;
+}
 .header ul li:hover{
 cursor: pointer;
 color: crimson;
@@ -37,3 +43,23 @@ transform: scaleX(1.05);
 transition: transform 0.3s ease-in-out;
 
 }
+/* Hero section */
+.herop{
+    font-size: 84px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 1230px;
+}
+.herop p{
+    display: flex;
+    justify-content: center;
+    margin-top: 565px;
+}
+.Slide{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+
+
