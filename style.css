@@ -61,5 +61,77 @@ transition: transform 0.3s ease-in-out;
     margin-top: 90px;
 }
 
+/* Book a Room section */
+.room{
+    display: flex;
+    justify-content: center;
+}
+.room1{
+    width: 1700px;
+    height: 320px;
+    margin: 123px;
+    background-color: #E9F3F6;
+    border: none;
+    border-radius: 42px;
+    padding: 55px 75px;
+}
+.room1 h1{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.room1 .hp{
+    font-size: 22px;
+    text-align: center;
+    color: #5E5E5E;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.imgdate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 22px 20px;
+    background-color: #FFFFFF;
+    width: 270px;
+    border-radius: 12px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
 
-
+.person ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    width: 433px;
+    padding: 19px 20px;
+    margin-top: 10px;
+}
+.adult{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn1{
+    background-color: #65AEF2;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top:30px ;
+}
+.book{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 110px;
+    flex-wrap: wrap;
+}

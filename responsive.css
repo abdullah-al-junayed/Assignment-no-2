@@ -1,5 +1,5 @@
 /* laptop */
-@media (max-width: 1224px) {
+@media (max-width: 1350px) {
     .header{
         
         margin-top: 30px;
@@ -9,6 +9,14 @@
     .herop{
         width: auto;
     }
+    .room1{
+        height: 450px;
+        margin: 123px;
+        background-color: #E9F3F6;
+        border: none;
+        border-radius: 42px;
+        padding: 55px 75px;
+    }
  }
 /* tablet */
 @media (max-width: 868px){
@@ -16,6 +24,8 @@
          margin-top: 20px;
         padding: 9px 20px;
         font-size: 18px;
+        background-color: transparent;
+       
     }
     .header ul{
         justify-content: space-between;
@@ -45,6 +55,7 @@
         display: none;
     }
  }
+ 
 
 /* Mobile */
 
@@ -63,5 +74,55 @@
    }
    .Slide{
     margin-top: 290px;
+}
+.room{
+    
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+
+}
+.room1{
+    width: auto;
+    height: 520px;
+    margin: 123px 0px;
+    background-color: #E9F3F6;
+    border: none;
+    border-radius: 42px;
+    padding: 55px 75px;
+    
+}
+.person ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    width: 270px;
+    padding: 19px 0px;
+    margin-top: 10px;
+}
+
+.adult{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.imgdate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 22px 0px;
+    background-color: #FFFFFF;
+    width: 270px;
+    border-radius: 12px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
 }
  }
