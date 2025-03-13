@@ -1,5 +1,7 @@
+
+
 /* laptop */
-@media (max-width: 1350px) {
+@media (max-width: 1475px) {
     .header{
         
         margin-top: 30px;
@@ -16,6 +18,21 @@
         border: none;
         border-radius: 42px;
         padding: 55px 75px;
+    }
+    .book{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 110px;
+        flex-wrap: wrap;
+    }
+    .grids{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .grids div{
+        border-radius: 40px;
     }
  }
 /* tablet */
@@ -53,6 +70,10 @@
     }
     .br1{
         display: none;
+    }
+    .grids div{
+        width: 350px;
+        border-radius: 40px;
     }
  }
  
@@ -100,7 +121,7 @@
     justify-content: space-around;
     background-color: #FFFFFF;
     border-radius: 12px;
-    width: 270px;
+    width: 300px;
     padding: 19px 0px;
     margin-top: 10px;
 }
@@ -123,5 +144,9 @@
     margin-top: 10px;
     font-weight: bold;
     font-size: 20px;
+}
+.grids div{
+    width: 320px;
+    border-radius: 40px;
 }
  }

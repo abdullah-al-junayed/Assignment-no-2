@@ -99,6 +99,13 @@ transition: transform 0.3s ease-in-out;
     margin-top: 10px;
     font-weight: bold;
     font-size: 20px;
+    cursor: pointer;
+}
+
+.imgdate img:hover{
+    cursor: pointer;
+transform: scaleX(1.15);
+transition: all ease-in-out 0.01s;
 }
 
 .person ul{
@@ -118,6 +125,13 @@ transition: transform 0.3s ease-in-out;
     align-items: center;
     gap: 10px;
 }
+.adult img:hover{
+    cursor: pointer;
+transform: scaleX(1.15);
+
+transition: all ease-in-out 0.01s;
+background: transparent;
+}
 .btn1{
     background-color: #65AEF2;
     padding: 18px 35px;
@@ -128,10 +142,109 @@ transition: transform 0.3s ease-in-out;
     color: #FFFFFF;
     margin-top:30px ;
 }
+.btn1:hover{
+cursor: pointer;
+box-shadow:5px 5px 10px #5E5E5E;
+transform: scaleX(1.05);
+transition: all ease-in-out 0.01s;
+}
 .book{
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-top: 110px;
     flex-wrap: wrap;
+}
+.position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 220px;
+    background-color: #F3F3F3;
+}
+.grids{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows: 400px 400px;
+    gap: 58px;
+    grid-auto-flow: column;
+    
+    
+    text-align:center;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 36px;
+}
+.text{
+    margin-top: 290px ;
+}
+.text1{
+    margin-top: 740px ;
+}
+.div1{
+    grid-column: 1/2;
+    grid-row: 1/-1;
+    background-image: url(images/Rectangle\ 6\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.div1:hover{
+    cursor: pointer;
+box-shadow:5px 5px 10px #5E5E5E;
+transition: all ease-in-out 0.01s;
+border-radius: 48px;
+}
+.div2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url(images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div2:hover{
+    cursor: pointer;
+box-shadow:5px 5px 10px #5E5E5E;
+transition: all ease-in-out 0.01s;
+border-radius: 48px;
+}
+.div3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div3:hover{
+    cursor: pointer;
+box-shadow:5px 5px 10px #5E5E5E;
+transition: all ease-in-out 0.01s;
+border-radius: 48px;
+}
+.div4{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url(images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div4:hover{
+    cursor: pointer;
+box-shadow:5px 5px 10px #5E5E5E;
+transition: all ease-in-out 0.01s;
+border-radius: 48px;
+}
+.div5{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div5:hover{
+    cursor: pointer;
+box-shadow:5px 5px 10px #5E5E5E;
+transition: all ease-in-out 0.01s;
+border-radius: 48px;
 }
