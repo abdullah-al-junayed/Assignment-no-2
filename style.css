@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* header */
 .headersection{
@@ -168,8 +169,6 @@ transition: all ease-in-out 0.01s;
     grid-template-rows: 400px 400px;
     gap: 58px;
     grid-auto-flow: column;
-    
-    
     text-align:center;
     font-weight: bold;
     color: #FFFFFF;
@@ -247,4 +246,83 @@ border-radius: 48px;
 box-shadow:5px 5px 10px #5E5E5E;
 transition: all ease-in-out 0.01s;
 border-radius: 48px;
+}
+
+/* Special offers */
+.text1{
+    padding: 0px 10px;
+}
+.text1 h3{
+    color: #65AEF2;
+    font-size: 32px;
+    font-weight: bold;
+}
+.text1 h1{
+    font-weight: bold;
+    font-size: 64px;
+}
+.text1 h4{
+    color: #65AEF2;
+    font-size: 32px;
+    text-align: right;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all ease-in-out 0.1s;
+}
+h4:hover{
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.11);
+}
+.text1 p{
+    font-size: 24px;
+color: rgba(0, 0, 0, 0.774);
+}
+.card1{
+    width: 380px;
+    height: 507px;
+    border-radius: 42px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.205);
+    display: flex;
+    flex-direction: column;
+    padding:20px ;
+}
+.card1 h6{
+font-size: 12px;
+color: #5E5E5E;
+margin-top: 25px;
+}
+h5{
+    font-size: 24px;
+    font-weight: bold;
+}
+.h5text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.card1 p{
+    color:#5E5E5E ;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.imgcard{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.card{
+    padding: 150px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card1:hover{
+transform: scale(1.05);
+transition: all ease-in-out 0.5s;
+}
+.forset{
+    padding: 150px ;
+    margin-top: -800px;
 }

@@ -75,6 +75,17 @@
         width: 350px;
         border-radius: 40px;
     }
+    .text1{
+        text-align: center;
+    }
+    .text1 h4{
+        display: none;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
  }
  
 
@@ -145,8 +156,39 @@
     font-weight: bold;
     font-size: 20px;
 }
+.position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0px;
+    background-color: #F3F3F3;
+}
+.grids{
+    justify-content: center;
+}
 .grids div{
     width: 320px;
     border-radius: 40px;
+}
+.card1{
+    width: 300px;
+    height: 440px;
+    border-radius: 42px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.205);
+    display: flex;
+    flex-direction: column;
+    padding:20px ;
+}
+.card{
+    padding: 150px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.forset{
+    padding: 100px 0px ;
+    margin-top: -800px;
 }
  }
