@@ -34,6 +34,16 @@
     .grids div{
         border-radius: 40px;
     }
+    .footer{
+        height: 1000px;
+        overflow-x: hidden;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
  }
 /* tablet */
 @media (max-width: 868px){
@@ -85,6 +95,54 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    input{
+        width: 140px;
+        height: 79px;
+        border-radius: 12px 0px 0px 12px;
+        font-size: 20px;
+        padding: 0px 45px;
+        margin-top: 50px;
+        border: none;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    input::placeholder{
+        font-style: italic;
+        color: #D9D9D9;
+        font-size: 14px;
+        font-weight: bold;
+        
+      }
+      .aboutus{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+    }
+      .footerinfo{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: #FFFFFF;
+        font-weight: bold;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerlist{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        margin-top: 60px;
+    }
+    .footer{
+        overflow-x: hidden;
     }
  }
  
@@ -191,4 +249,61 @@
     padding: 100px 0px ;
     margin-top: -800px;
 }
+.footer{
+    height:1200px;
+    overflow-x: hidden;
+}
+.input.p{
+    text-align: center;
+}
+.input{
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+
+    border-radius: 12px 0px 0px 12px;
+    margin-top: 50px;
+    border: none;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+.input1{
+    width: 150px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input1 input{
+    width: 180px;
+    height: 59px;
+}
+input::placeholder{
+    font-style: italic;
+    color: #D9D9D9;
+    font-size: 14px;
+    font-weight: bold;
+    
+  }
+  .input1 button{
+      width: 120px;
+      height: 60px;
+      border-radius: 0px 12px 12px 0px;
+      font-size: 14px;
+      background-color: #65AEF2;
+      text-align: center;
+      border: none;
+      color: #FFFFFF;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 50px;
+  }
  }
